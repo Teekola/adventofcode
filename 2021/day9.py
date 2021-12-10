@@ -100,7 +100,7 @@ print(solvePuzzle("input9.txt"))
 print(pfc() - start_time)
 
 
-def calculateBasinSize(row, col, map, checked):
+def calculateBasinSize(row, col, map, checked) -> int:
     # Base case, out of bounds, has been checked or the value is 9 (add 0)
     if row < 0 or row >= len(map) or col < 0 or col >= len(map[0]) or (row, col) in checked or map[row][col] == 9:
         return 0
