@@ -1,1 +1,1 @@
-# My AdventOfCode solutions are here
+# Solutions for https://adventofcode.com/ puzzles
